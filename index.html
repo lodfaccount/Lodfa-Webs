@@ -1,13 +1,68 @@
 <!DOCTYPE html>
-<html lang=en>
+<html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lodfa Webs</title>
-<!-- My Style -->
-    <link rel="stylesheet" href="style.css">
+
+    <!-- My Style -->
+     <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="assets/css/responsive.css">
+     <link rel="stylesheet" href="animation.css">
+
+     <!-- My Font Awesome -->
+     <script src="https://kit.fontawesome.com/f281811b82.js" crossorigin="anonymous"></script>
   </head>
   <body>
-    <header></header>
+    <!-- Header navigation -->
+    <header class="container">
+      <nav class="nav-head">
+        <section class="logo">
+          <div class="image-coloms">
+        <img src="assets/img/logoLodfa.png" class="logo-image">
+      </div>
+        <span class="teks-logo">Lodfa Webs</span>
+      </section>
+        <ul class="bars-hz">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li class="login"><a href="#">Log in</a></li>
+        </ul>
+      </nav>
+
+        <aside class="side-nav">
+          <label>
+            <input type="checkbox" />
+            <div class="toggle">
+              <span class="top_line common"></span>
+              <span class="middle_line common"></span>
+              <span class="bottom_line common"></span>
+            </div>
+    
+            <section class="slide">
+              <h1>Menu</h1>
+              <ul class="bars-vt">
+                <li>
+                  <a href="index.html" target="_self" class="active"><i class="fas fa-home"></i>Home</a>
+                </li>
+                <li>
+                  <a href="#" target="_self"><i class="fa fa-info"></i>About</a>
+                </li>
+                <li>
+                  <a href="#" target="_self"><i class="far fa-comments"></i>contact</a>
+                </li>
+                <li class="slide-login">
+                  <a href="#" target="_self"><i class="fas fa-cogs"></i>Log In</a>
+                </li>
+              </ul>
+            </section>
+          </label>
+        </aside>
+    
+    </header>
+
+    <!-- My Script -->
+    <script src="main.js"></script>
   </body>
 </html>
