@@ -1,0 +1,26 @@
+/* Perangkat Seluler */
+@media only screen and (max-width: 994px) {
+/* Header navigation */
+    .container nav ul {
+        display: none;
+    }
+
+    .logo .image-coloms {
+        width: 40px;
+        height: 40px;
+    }
+
+    .logo .logo-image {
+        width: 40px;
+        scale: 1.4;
+    }
+
+    .logo .teks-logo {
+        transform: translateY(10px);
+    }
+
+    /* Aside Navbar */
+  .side-nav {
+    display: inline;
+  }
+}
