@@ -4,3 +4,5 @@ Buat atau atur folder seperti dibawah ini
 -       / css (Folder - didalam folder assets)
 -         / responsive.css (File - didalam folder css) 
 -       / js (Folder - didalam folder assets)
+-     / index.html (File - didalam folder Lodfa Webs)
+-     / style.css (File - didalam folder Lodfa Webs)
